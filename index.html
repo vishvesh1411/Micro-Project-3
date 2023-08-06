@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Analysis</title>
+</head>
+<body>
+  <h1>Food Analysis</h1>
+  
+  <select id="operation">
+    <option value="foodItems">List all food items</option>
+    <option value="vegetables">List vegetables</option>
+    <option value="fruits">List fruits</option>
+    <option value="proteinFoods">List protein foods</option>
+    <option value="nuts">List nuts</option>
+    <option value="grains">List grains</option>
+    <option value="dairy">List dairy</option>
+    <option value="above100Calories">List foods with calories above 100</option>
+    <option value="below100Calories">List foods with calories below 100</option>
+    <option value="highToLowProtein">List foods with highest protein content to lowest</option>
+    <option value="lowToHighCarbs">List foods with lowest carb content to highest</option>
+  </select>
+  
+  <button id="submit">Submit</button>
+  
+  <div id="output"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
